@@ -9,7 +9,6 @@ app.set('views', __dirname + '/');
 app.set('view engine', 'ejs');
 app.engine('html', require('ejs').renderFile);
 
-/** API 서버 확인용 */
 app.use( '/' ,express.static(__dirname + '/'));
 app.get('/',function(req,res){
     res.render('index.html');

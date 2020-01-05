@@ -14,7 +14,7 @@ WORKDIR /app
 COPY . /app
 
 # npm install 진행
-RUN npm install
+RUN npm install && npm run build
 
 # 포트 맵핑
 EXPOSE 3000 3000

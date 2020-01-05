@@ -1,0 +1,8 @@
+# gitignore
+
+/node_modules
+/.idea
+/idea
+/dist
+/package-lock.json
+
